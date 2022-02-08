@@ -27,8 +27,8 @@ def get_db():
 
 while True:
     try:
-        conn = psycopg2.connect(host="localhost", database="fastapi",
-                                user="fastapi", password="fastapi", cursor_factory=RealDictCursor)
+        conn = psycopg2.connect(host="ec2-34-206-148-196.compute-1.amazonaws.com", database="dfj6vfmcuj4h1s",
+                                user="qtqbbhfzdsvnyi", password="9a128d521f1a484e97944a94e3f15daa0c16dca7bb1c87dcd39ee390997c9536", cursor_factory=RealDictCursor)
         cursor = conn.cursor()
         print("Database connection was succesfull!")
         break

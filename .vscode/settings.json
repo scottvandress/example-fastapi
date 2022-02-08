@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "c:\\Users\\Scott\\Documents\\Python_API\\venv\\Scripts\\python.exe"
+    "python.pythonPath": "c:\\Users\\Scott\\Documents\\Python_API\\venv\\Scripts\\python.exe",
+    "terminal.integrated.enableShellIntegration": true
 }

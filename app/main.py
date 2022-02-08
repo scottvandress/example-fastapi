@@ -18,4 +18,4 @@ app.include_router(auth.router)
 # https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Hello FastAPI TY SANJEEV!!!"}

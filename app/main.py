@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from pydantic import BaseSettings
-
 from . import models
 from .database import engine
 from .routers import auth, post, user
